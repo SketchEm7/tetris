@@ -1,0 +1,80 @@
+head, body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.verticalLine {
+    border-right: thick solid #ff00ff;
+    width: 410px;
+    height: 1000px;
+    float: left;
+}
+#holder{
+	width: 1248px;
+	margin: 0 auto;
+}
+#piece1{
+	position: relative;
+	top: -600px;
+	left: 80px;
+}
+#piece2{
+	position: relative;
+	left: 200px;
+	top: -840px;
+}
+#piece3{
+	position: relative;
+	top: -590px;
+}
+#piece4{
+	position: relative;
+	top: -750px;
+}
+#piece5{
+	position: relative;
+	top: -690px;
+	left: 20px;
+}
+#piece6{
+	position: relative;
+	top: -510px;
+}
+#piece7{
+	position: relative;
+	top: -600px;
+	left: 60px;
+}
+.box{
+	width: 160px;
+	border: solid #ff00ff 2px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: none;
+	position: absolute;
+	top: 940px;
+}
+.box p{
+	padding: 6px;
+}
+#box2{
+	left: 200px;
+}
+#box4{
+	left: 540px;
+}
+#box5{
+	left: 680px;
+}
+#box7{
+	left: 1000px;
+}
+header {
+	width: 420px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}

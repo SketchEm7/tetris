@@ -1,0 +1,107 @@
+$(document).ready(function(){
+	$('#piece1').animate({
+		"top":"840px"
+	}, 8000);
+	$('#piece2').animate({
+		"top":"840px"
+	}, 9000);
+	$('#piece3').animate({
+		"top":"920px"
+	}, 8500);
+	$('#piece4').animate({
+		"top":"920px"
+	}, 8500);
+	$('#piece5').animate({
+		"top":"920px"
+	}, 10500);
+	$('#piece6').animate({
+		"top":"880px"
+	}, 12500);
+	$('#piece7').animate({
+		"top":"880px"
+	}, 8500);
+	$('#piece1').mouseenter(function(){
+		$(this).animate({
+			"top":"820px"
+		});
+		$('#box1').show();
+	});
+	$('#piece1').mouseleave(function(){
+		$(this).animate({
+			"top":"840px"
+		});
+		$('#box1').fadeOut(500);
+	});
+	$('#piece2').mouseenter(function(){
+		$(this).animate({
+			"top":"820px"
+		});
+		$('#box2').show();
+	});
+	$('#piece2').mouseleave(function(){
+		$(this).animate({
+			"top":"840px"
+		});
+		$('#box2').fadeOut(500);
+	});
+	$('#piece3').mouseenter(function(){
+		$(this).animate({
+			"top":"900px"
+		});
+		$('#box3').show();
+	});
+	$('#piece3').mouseleave(function(){
+		$(this).animate({
+			"top":"920px"
+		});
+		$('#box3').fadeOut(500);
+	});
+	$('#piece4').mouseenter(function(){
+		$(this).animate({
+			"top":"900px"
+		});
+		$('#box4').show();
+	});
+	$('#piece4').mouseleave(function(){
+		$(this).animate({
+			"top":"920px"
+		});
+		$('#box4').fadeOut(500);
+	});
+	$('#piece5').mouseenter(function(){
+		$(this).animate({
+			"top":"900px"
+		});
+		$('#box5').show();
+	});
+	$('#piece5').mouseleave(function(){
+		$(this).animate({
+			"top":"920px"
+		});
+		$('#box5').fadeOut(500);
+	});
+	$('#piece6').mouseenter(function(){
+		$(this).animate({
+			"top":"860px"
+		});
+		$('#box6').show();
+	});
+	$('#piece6').mouseleave(function(){
+		$(this).animate({
+			"top":"880px"
+		});
+		$('#box6').fadeOut(500);
+	});
+	$('#piece7').mouseenter(function(){
+		$(this).animate({
+			"top":"860px"
+		});
+		$('#box7').show();
+	});
+	$('#piece7').mouseleave(function(){
+		$(this).animate({
+			"top":"880px"
+		});
+		$('#box7').fadeOut(500);
+	});
+});
